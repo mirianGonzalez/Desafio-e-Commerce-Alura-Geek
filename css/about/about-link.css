@@ -1,0 +1,10 @@
+.about__link {
+	display: flex;
+	flex-direction: column;
+	color: #464646;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 25px;
+	
+	margin: 10px auto;
+}

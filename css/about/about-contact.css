@@ -1,0 +1,8 @@
+.about__contact {
+	display: flex;
+	flex-direction: right;
+	gap: 15px;
+	width: center;
+	margin: 10px auto;
+	image-rendering: auto;
+}

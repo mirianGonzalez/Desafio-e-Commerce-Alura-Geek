@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	
+		<link
+			rel="shortcut icon"
+			href="assets/images/page-icon.png"
+			type="image/x-icon"
+		/>
+
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		
+		<link rel="stylesheet" href="css/general.css" />
+		<link rel="stylesheet" href="css/nav.css" />
+		<link rel="stylesheet" href="css/nav/nav-logo.css" />
+		<link rel="stylesheet" href="css/nav/nav-login-btn.css" />
+		<link rel="stylesheet" href="css/nav/nav-icon-search.css" />
+		<link rel="stylesheet" href="css/nav/nav-search.css" />
+		<link rel="stylesheet" href="css/nav/nav-search-input.css" />
+		<link rel="stylesheet" href="css/nav/nav-search-btn.css" />
+		<link rel="stylesheet" href="css/nav/nav-input-hide.css" />
+		<link rel="stylesheet" href="css/hero.css" />
+		<link rel="stylesheet" href="css/hero/hero-info-title.css" />
+		<link rel="stylesheet" href="css/hero/hero-info-description.css" />
+		<link rel="stylesheet" href="css/hero/hero-info-btn.css" />
+		<link rel="stylesheet" href="css/products.css" />
+		<link rel="stylesheet" href="css/products/products-category.css" />
+		<link rel="stylesheet" href="css/products/products-title.css" />
+		<link rel="stylesheet" href="css/products/products-link.css" />
+		<link rel="stylesheet" href="css/products/products-items.css" />
+		<link rel="stylesheet" href="css/products/products-img.css" />
+		<link rel="stylesheet" href="css/products/products-name.css" />
+		<link rel="stylesheet" href="css/products/products-price.css" />
+		<link rel="stylesheet" href="css/products/products-detail.css" />
+		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/about/about-text.css" />
+		<link rel="stylesheet" href="css/about/about-logo.css" />
+		<link rel="stylesheet" href="css/about/about-link.css" />
+		<link rel="stylesheet" href="css/about/about-contact.css" />
+		<link rel="stylesheet" href="css/about/about-contact-title.css" />
+		<link rel="stylesheet" href="css/about/about-contact-form.css" />
+		<link rel="stylesheet" href="css/about/about-contact-form-name.css" />
+		<link rel="stylesheet" href="css/about/about-contact-form-message.css" />
+		<link rel="stylesheet" href="css/about/about-contact-form-btn.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+
+		<title>Desafío E-Commerce Alura Geek </title>
+	
+	</head>
+	<body>
+		
+		<header class="nav__container">
+			<a href="index.html">
+				<img
+					src="assets/images/Logo.svg"
+					alt="alura geek Logo"
+					class="nav__icon__logo"
+				/>
+			</a>
+			<a href="login.html" class="nav__login__btn"
+				><button class="nav__login__btn">Login</button></a
+			>
+
+			<div class="nav__search input--hide">
+				<input
+					type="search"
+					name="search"
+					id="search"
+					class="nav__search__input"
+					placeholder="¿Que deseas buscar?"
+				/>
+				<button class="nav__search__btn">
+					<img src="assets/images/search-icon.svg" alt="buscar" />
+				</button>
+			</div>
+			<label for="search"
+				><img
+					src="assets/images/search-icon.svg"
+					alt="icono busqueda"
+					class="nav__icon__search"
+			/></label>
+		</header>
+		
+		<section class="hero__container">
+			<div class="hero__img"></div>
+			<h2 class="hero__info__title">Junio Promocional</h2>
+			<h4 class="hero__info__description">
+				Productos seleccionados con 33% de descuento
+			</h4>
+			<button class="hero__info__btn">Ver consolas</button>
+		</section>
+		
+		<main>
+			<section class="products">
+				<div class="product__category">
+					<h3 class="products__title">Star Wars</h3>
+					<a href="products.html" class="products__link">Ver todo</a>
+					<div class="products__item">
+						<img
+							src="assets/images/starwars1.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Taza Stormtrooper</h5>
+						<h4 class="products__price">$ 2.180,00</h4>
+						<a href="detail.html" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/starwars2.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Funko Pop Darth Vader</h5>
+						<h4 class="products__price">$ 8.590,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/starwars3.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Figura Yoda</h5>
+						<h4 class="products__price">$ 600,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/starwars4.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Muñeco Soldado Stormtrooper</h5>
+						<h4 class="products__price">$ 6.400,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/starwars5.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Figura de acción grogu</h5>
+						<h4 class="products__price">$ 17.999,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/starwars6.png"
+							alt="product image"
+							class="products__img"
+						/>
+
+						<h5 class="products__name">Muñeco Kylo Ren</h5>
+						<h4 class="products__price">$ 6.890,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+				</div>
+
+				<div class="product__category">
+					<h3 class="products__title">Consolas</h3>
+					<a href="#" class="products__link">Ver todo</a>
+					<div class="products__item">
+						<img
+							src="assets/images/consolas1.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Joystick inalámbrico Xbox</h5>
+						<h4 class="products__price">$ 16.821,28</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/consolas2.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">PlayStation 5 Bundle</h5>
+						<h4 class="products__price">$ 22.579,99</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/consolas3.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Nintendo NES</h5>
+						<h4 class="products__price">$ 130.000,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/consolas4.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Control para Switch</h5>
+						<h4 class="products__price">$ 7.599,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/consolas5.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Consola Xbox Series X</h5>
+						<h4 class="products__price">$ 13.796,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/consolas6.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Game Boy Color</h5>
+						<h4 class="products__price">$ 24.999,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+				</div>
+
+				<div class="product__category">
+					<h3 class="products__title">Diversos</h3>
+					<a href="#" class="products__link">Ver todo</a>
+					<div class="products__item">
+						<img
+							src="assets/images/diversos1.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Remera Atari</h5>
+						<h4 class="products__price">$ 952,36</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/diversos2.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Remera Snes</h5>
+						<h4 class="products__price">$ 999,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/diversos3.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Figura Sonic</h5>
+						<h4 class="products__price">$ 4.674,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/diversos4.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Reloj Digital Despertador</h5>
+						<h4 class="products__price">$ 3.749,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/diversos5.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Casco lente realidad virtual</h5>
+						<h4 class="products__price">$ 7.800,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+					<div class="products__item">
+						<img
+							src="assets/images/diversos6.png"
+							alt="product image"
+							class="products__img"
+						/>
+						<h5 class="products__name">Peluche Pikachu</h5>
+						<h4 class="products__price">$ 2.790,00</h4>
+						<a href="#" class="products__detail">Ver producto</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		
+		<article class="about">
+			<section class="about__text">
+				<img
+					src="assets/images/Logo.svg"
+					alt="alura geek logo"
+					class="about__logo"
+				/>
+				<a href="#" class="about__link">Quienes somos</a>
+				<a href="#" class="about__link">Politica de privacidad</a>
+				<a href="#" class="about__link">Programa de fidelidad</a>
+				<a href="#" class="about__link">Nuestras tiendas</a>
+				<a href="#" class="about__link">Quiero ser franquiciado</a>
+				<a href="#" class="about__link">Anuncie aqui</a>
+			</section>
+			<section class="about__contact">
+				<h2 class="about__contact__title">Hable con nosotros</h2>
+				<img class="imagen-formulario" src="./assets/images/mail_contacts.png">
+				<form action="" class="about__contact__form" id="contact__form">
+					<input
+						type="text"
+						name="Nombre"
+						placeholder="Ingrese su nombre"
+						class="about__contact__form__name"
+					/>
+					<textarea
+						name="mensaje"
+						id="message"
+						cols="30"
+						rows="10"
+						placeholder="Escribe tu mensaje"
+						class="about__contact__form__message"
+					></textarea>
+					<input
+						type="submit"
+						value="Enviar Mensaje"
+						class="about__contact__form__btn"
+					/>
+				</form>
+			</section>
+		</article>
+		<footer class="fondo-footer">
+            <div class="container-footer">
+                <p class="footer-text"></p>
+                <p> &copy; 2022
+                    <img alt="foto" src="./assets/images/icono2.png"  width="25" height="25">
+                    <a href="https://github.com/mirianGonzalez"> Mirian Gonzalez</a>
+                    | Semana 7 y 8 Challenge Oracle ONE - Front End</p>
+            </div>
+        </footer>
+		<script src="test.js"></script>
+	
+    </body>
+
+</html>

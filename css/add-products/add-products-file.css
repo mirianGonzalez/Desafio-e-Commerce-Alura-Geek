@@ -1,0 +1,9 @@
+.add__product__file {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 328px;
+	height: 134px;
+	background: #fff;
+	border: 1px dashed #c8c8c8;
+}
